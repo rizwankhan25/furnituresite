@@ -76,6 +76,7 @@ nav a{
 .videotag{
     width: 65%;     
     height: 45vh;
+    object-fit: cover;
 }
 .videotag video{
     width: 100%;
