@@ -50,13 +50,4 @@ document.querySelector(".ri-menu-line").addEventListener("click", function () {
     "same"
   );
   
-  document.querySelector(".card").addEventListener("mouseenter", function() {
-      document.querySelector(".card").style.backgroundColor = "red"
-      document.querySelector(".card").style.duration = "2s"
-      document.querySelector(".card").style.transformRotate = "60deg"
-  })
-  document.querySelector(".card").addEventListener("mouseleave", function() {
-      document.querySelector(".card").style.backgroundColor = "forestgreen"
-      document.querySelector(".card").style.duration = "2s"
-      document.querySelector(".card").style.rotate = "initial"
-  })
+  
